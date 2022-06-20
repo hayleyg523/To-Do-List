@@ -1,4 +1,5 @@
 // CODE EXPLAINED channel
+
 // Select the Elements
 const clear = document.querySelector(".clear");
 const dateElement = document.getElementById("date");
@@ -102,7 +103,7 @@ function completeToDo(element){
     LIST[element.id].done = LIST[element.id].done ? false : true;
 }
 
-//remove to do
+// remove to do
 function removeToDo(element){
     element.parentNode.parentNode.removeChild(element.parentNode);
 
